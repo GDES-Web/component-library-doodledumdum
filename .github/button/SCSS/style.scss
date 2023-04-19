@@ -1,0 +1,37 @@
+
+
+// Define variables for button styles
+$button-background-color: #007bff;
+$button-text-color: #fff;
+$button-hover-background-color: #0053ab;
+$button-active-background-color: #4ca3ff;
+
+// Define the button class
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0.25rem;
+  color: $button-text-color;
+  background-color: $button-background-color;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $button-hover-background-color;
+  }
+
+  &:active {
+    background-color: $button-active-background-color;
+  }
+}
+
+// Usage example
+.my-button {
+  @extend .button;
+  // Additional styles for the specific use case
+}

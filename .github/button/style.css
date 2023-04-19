@@ -1,0 +1,21 @@
+.button, .my-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .button:hover, .my-button:hover {
+    background-color: #0053ab;
+  }
+  .button:active, .my-button:active {
+    background-color: #4ca3ff;
+  }
+  
